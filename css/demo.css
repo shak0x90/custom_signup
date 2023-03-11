@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    background-image: url('../img/remw.jpg');
+    background-size:100%
+
+    }
+    
+    #main{
+    position:relative;
+    margin-top:15px
+    }
+    #logo{
+        font-size: 110px;
+        display: flex;
+        justify-content: center;
+        color: #4286f4;
+    }
+    #first{
+        text-align: center;
+     width:328px;
+    margin-top:0;
+    padding:28px 25px;
+    background-color:#fff;
+    border:1px solid #000;
+    border-radius:5px;
+    position:absolute;
+    left:50%;
+    margin-left:-180px;
+    top:0 
+    }
+    #second{
+        
+    width:328px;
+    margin-top:0;
+    padding:28px 25px;
+    background-color:#fff;
+    display:none;
+    border:1px solid #000;
+    border-radius:5px;
+    position:absolute;
+    left:50%;
+    margin-left:-180px;
+      
+    top:0;
+    text-align: center;
+    
+    padding: 20px;
+    display: none;
+    }
+    h3{
+    margin-top:0
+    }
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 16px 8px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        }
+    input[type=button]{
+        background-color: #4286f4;
+        color: white;
+        padding: 14px 0;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        cursor: grab;
+        width: 48%;
+        cursor:pointer;
+        text-shadow:0 1px 0 #13506D
+    }
+
+    input[type=button]:hover{
+    opacity: 0.8;
+    }
+    a{
+    text-decoration:none;
+    color:#6495ed
+    }
+    p#two{
+    margin-bottom:0
+    }
+    
